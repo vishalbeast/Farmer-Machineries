@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Farmer Machineries</title>
+  
+  
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="/static/css/front.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body> 
+  <nav class="navbar navbar-expand-lg bg-danger">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="/static/css/OIP (2).jpg"width="300" height="70" alt="" />
+      </a> 
+      {% comment %} <a class="navbar-brand" href="/">Farmer Service</a> {% endcomment %}
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
+          </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/about">About</a>
+          </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/rental">Register</a>
+          </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/user">Rent</a>
+          </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/hire">Hire</a>
+          </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/contact">Contact Us</a>
+          </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          
+          
+        </ul>
+        
+      </div>
+      <a class="navbar-brand" href="#">
+        <img src="/static/css/tiger.png"width="200" height="70" alt="" />
+      </a> 
+    
+    </div>
+  </nav>
+   
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/static/css/wp1.jpg" class="d-block w-100" alt="/static/css/eicher-tractor.png"height="350">
+              </div>
+        <div class="carousel-item">
+          <img src="/static/css/as.Jpg" class="d-block w-100" alt="/static/css/tractor.jpg" height="350">
+        </div>
+              
+      </div>  
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <h1 align="center" style="color: red;">KARSHAKA SEVA</h1>
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-6 mb-4">
+            <div class="card">
+                <img class="card-img-top" src="/static/css/eicher-tractor.png" alt="" width="50" height="180">
+
+                <div class="card-body">
+                    <h5 class="card-title" style="color: black">Utility Tractor</h5>
+                    <p class="card-text" style="color: black">
+                        This type of tractor is used for farming operations such as plowing and pulling heavy implements. If farmers can not afford to buy additional machines to perform tasks, utility tractors are good. 
+                    </p>
+                    <a href="/utility" class="btn btn-outline-primary btn-sm">
+                        View More
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 mb-4">
+            <div class="card">
+                <img class="card-img-top" src="/static/css/45.jpg" alt="" width="50" height="180">
+
+                <div class="card-body" >
+                    <h5 class="card-title" style="color: black">
+                        Compact Tractor
+                    </h5>
+                    <p class="card-text" style="color: black">
+                        compact tractors are used in vineyards, fruit yards, and nut yards. They are constructed in a way that the user can sit comfortably and choose the hanging fruits or trim the trees at the same time. 
+                    </p>
+                      
+                    <a href="/compact" class="btn btn-outline-primary btn-sm">
+                        View More
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div><br>
+<div class="container">
+  <div class="row">
+      <div class="col-lg-6 mb-4">
+          <div class="card">
+              <img class="card-img-top" src="/static/css/eicher-tractor-2.png" alt="" width="50" height="180">
+
+              <div class="card-body">
+                  <h5 class="card-title" style="color: black">Row Crop Tractor</h5>
+                  <p class="card-text" style="color: black">
+                    These tractors are all around tractors that perform various farming tasks you need to do, weed control.
+                  </p>  
+                  <a href="/rowcrop" class="btn btn-outline-primary btn-sm">
+                      View More
+                  </a>
+                  
+              </div>
+          </div>
+      </div>
+      <div class="col-lg-6 mb-4">
+          <div class="card">
+              <img class="card-img-top" src="/static/css/eicher-tractor-3.png" alt="" width="50" height="180">
+
+              <div class="card-body">
+                  <h5 class="card-title" style="color: black">Industrial Tractor</h5>
+                  <p class="card-text" style="color: black">
+                    These tractors mostly used to pull heavy loads and fit the cranes to lifting heavy weights easily. 
+                  </p>
+                    
+                  <a href="/industrial" class="btn btn-outline-primary btn-sm">
+                      View More
+                  </a>
+                  
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<div class="container" style="color:black">
+  <div class="row">
+      <div class="col-lg-6 mb-4">
+          <div class="card">
+              <img class="card-img-top" src="/static/css/image_2020_09_22T18_32_20_659Z.png" alt="" width="50" height="180">
+
+              <div class="card-body">
+                  <h5 class="card-title" style="color: black">Two-Wheel Tractor</h5>
+                  <p class="card-text" style="color: black">
+                    Lighter weight and smaller tractors used for tilling, plowing, and pulling smaller implements such as harvesters, seeding equipment, and trailers.
+                  </p>
+
+                  <a href="/twowheel" class="btn btn-outline-primary btn-sm">
+                      View More
+                  </a>
+                  
+              </div>
+          </div>
+      </div>
+      <div class="col-lg-6 mb-4">
+          <div class="card">
+              <img class="card-img-top" src="/static/css/eicher-tractor-7.png" alt="" width="50" height="180">
+
+              <div class="card-body">
+                  <h5 class="card-title" style="color: black">Backhoe loader</h5>
+                  <p class="card-text" style="color: black">
+                    They used for various construction tasks, from digging holes to breaking asphalt.
+                  </p>
+                    
+                  <a href="/backhoe" class="btn btn-outline-primary btn-sm">
+                      View More
+                  </a>
+                  
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+</div>
+    <footer>
+    <div class="main-content">
+        <div class="left box">
+            <h2>About us</h2>
+            <div class="content">
+                <p>Welcome to Karshak Seva Tractor Service, We are providing tractor to the farmers for taking rent of the farming products like tractors with different capacities according to the need of crop, machineries, pesticides, sprayers etc.</p>
+                <div class="social">
+                <a href="#"><span class="fab fa-facebook-f"></span></a>
+                <a href="#"><span class="fab fa-twitter"></span></a>
+                <a href="#"><span class="fab fa-instagram"></span></a>
+                <a href="#"><span class="fab fa-youtube"></span></a>
+                </div>
+            </div>
+        </div>
+        <div class="center box">
+            <h2>Address</h2>
+            <div class="content">
+                <div class="place">
+                    <span class="fas fa-map-marker-alt"></span>
+                    <span class="text">Tirupati, Balaji Colony</span>
+                </div>
+                <div class="phone">
+                    <span class="fas fa-phone-alt"></span>
+                    <span class="text">+91-987654321</span>
+                </div>
+                <div class="email">
+                    <span class="fas fa-envelope"></span>
+                    <span class="text">abc@gmail.com</span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="right box">
+            <h2>Contact us</h2>
+            <div class="content">
+                <form action="#">
+                    <div class="email">
+                        <div class="text">Email *</div>
+                        <input type="email" required>
+                    </div>
+                    <div class="msg">
+                        <div class="text">Message *</div>
+                        <textarea cols="25" rows="2"></textarea>
+                    </div>
+                    <div class="btn">
+                        <button type="Submit" style="color: black">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    </footer>
+</body>
+</html>
